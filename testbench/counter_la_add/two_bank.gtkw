@@ -1,0 +1,103 @@
+[*]
+[*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
+[*] Mon Dec 25 15:06:59 2023
+[*]
+[dumpfile] "/home/a605/soclab/labD-sdram/testbench/counter_la_add/counter_la_add.vcd"
+[dumpfile_mtime] "Sun Dec 24 12:47:58 2023"
+[dumpfile_size] 28130241
+[savefile] "/home/a605/soclab/labD-sdram/testbench/counter_la_add/two_bank.gtkw"
+[timestart] 1162937000
+[size] 1848 1016
+[pos] -89 -89
+*-18.000000 1164057000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] counter_la_tb.
+[treeopen] counter_la_tb.uut.
+[treeopen] counter_la_tb.uut.mprj.
+[treeopen] counter_la_tb.uut.mprj.mprj.
+[treeopen] counter_la_tb.uut.mprj.mprj.user_bram.
+[treeopen] counter_la_tb.uut.soc.
+[treeopen] counter_la_tb.uut.soc.core.
+[treeopen] counter_la_tb.uut.soc.core.VexRiscv.
+[sst_width] 233
+[signals_width] 319
+[sst_expanded] 1
+[sst_vpaned_height] 289
+@200
+-SDRAM Controller
+@22
+counter_la_tb.uut.mprj.mprj.user_sdram_controller.user_addr[22:0]
+@200
+-
+@22
+counter_la_tb.uut.mprj.mprj.user_sdram_controller.addr[22:0]
+@28
+counter_la_tb.uut.mprj.mprj.user_sdram_controller.Mapped_BA[1:0]
+@22
+counter_la_tb.uut.mprj.mprj.user_sdram_controller.Mapped_CA[7:0]
+counter_la_tb.uut.mprj.mprj.user_sdram_controller.Mapped_RA[12:0]
+@200
+-
+@22
+counter_la_tb.uut.mprj.mprj.user_sdram_controller.sdram_a[12:0]
+@28
+counter_la_tb.uut.mprj.mprj.user_sdram_controller.sdram_ba[1:0]
+@200
+-
+@28
+counter_la_tb.uut.mprj.mprj.user_sdram_controller.sdram_cle
+counter_la_tb.uut.mprj.mprj.user_sdram_controller.sdram_cs
+counter_la_tb.uut.mprj.mprj.user_sdram_controller.sdram_cas
+counter_la_tb.uut.mprj.mprj.user_sdram_controller.sdram_ras
+counter_la_tb.uut.mprj.mprj.user_sdram_controller.sdram_we
+counter_la_tb.uut.mprj.mprj.user_sdram_controller.sdram_dqm
+@22
+counter_la_tb.uut.mprj.mprj.user_sdram_controller.sdram_dqo[31:0]
+@200
+-
+@28
+counter_la_tb.uut.mprj.mprj.user_sdram_controller.in_valid
+counter_la_tb.uut.mprj.mprj.user_sdram_controller.rw
+@22
+counter_la_tb.uut.mprj.mprj.user_sdram_controller.data_in[31:0]
+@28
+counter_la_tb.uut.mprj.mprj.user_sdram_controller.out_valid
+@22
+counter_la_tb.uut.mprj.mprj.user_sdram_controller.data_out[31:0]
+@28
+counter_la_tb.uut.mprj.mprj.user_sdram_controller.busy
+@200
+-SDRAM_STATE
+@24
+counter_la_tb.uut.mprj.mprj.user_sdram_controller.state_q[3:0]
+@200
+-
+-
+-Wishbone Bus
+@28
+counter_la_tb.uut.mprj.wbs_we_i
+counter_la_tb.uut.mprj.wbs_stb_i
+@29
+counter_la_tb.uut.mprj.wbs_sel_i[3:0]
+@22
+counter_la_tb.uut.mprj.wbs_dat_i[31:0]
+counter_la_tb.uut.mprj.wbs_dat_o[31:0]
+@28
+counter_la_tb.uut.mprj.wbs_cyc_i
+@22
+counter_la_tb.uut.soc.core.VexRiscv.execute_INSTRUCTION[31:0]
+@200
+-
+@22
+counter_la_tb.uut.mprj.wbs_adr_i[31:0]
+@28
+counter_la_tb.uut.mprj.wbs_ack_o
+counter_la_tb.uut.mprj.wb_rst_i
+counter_la_tb.uut.mprj.wb_clk_i
+@200
+-
+@28
+counter_la_tb.uut.mprj.mprj.user_sdram_controller.in_valid
+counter_la_tb.uut.mprj.mprj.user_sdram_controller.busy
+counter_la_tb.uut.mprj.wbs_ack_o
+[pattern_trace] 1
+[pattern_trace] 0
