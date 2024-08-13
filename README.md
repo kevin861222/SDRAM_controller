@@ -35,7 +35,7 @@ Notion Link : [Link](https://irradiated-hellebore-357.notion.site/LAB-D-SDRAM-41
 
 ### Reference
 
-[](https://github.com/bol-edu/caravel-soc_fpga-lab/tree/main/lab-sdram)
+[https://github.com/bol-edu/caravel-soc_fpga-lab/tree/main/lab-sdram](https://github.com/bol-edu/caravel-soc_fpga-lab/tree/main/lab-sdram)
 
 ### Workbook
 
