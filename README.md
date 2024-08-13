@@ -4,7 +4,7 @@ Notion Link : [Link](https://irradiated-hellebore-357.notion.site/LAB-D-SDRAM-41
 
 ## 實驗介紹
 ### 實驗簡介
-設計 SDRAM controller 以及 wishbone bus convertor ，建構 CPU 與 SDRAM 之橋樑
+設計 SDRAM controller 以及 wishbone bus convertor ，建構 CPU 與 SDRAM 之橋樑 ，並且加入了 Prefetch 與 cache 功能，大幅提升性能。
 
 ### 實驗目的
 
