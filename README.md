@@ -3,6 +3,8 @@
 Notion Link : [Link](https://irradiated-hellebore-357.notion.site/LAB-D-SDRAM-4128635388f44d099ccf5abd650cbda2?pvs=4)
 
 ## 實驗介紹
+### 實驗簡介
+設計 SDRAM controller 以及 wishbone bus convertor ，建構 CPU 與 SDRAM 之橋樑
 
 ### 實驗目的
 
