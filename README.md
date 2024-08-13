@@ -6,7 +6,7 @@ Notion Link : [Link](https://irradiated-hellebore-357.notion.site/LAB-D-SDRAM-41
 
 ### 實驗目的
 
-1. 延續 [Lab4-1](https://www.notion.so/Lab-4-1-exmem-04553dc675604dcf813bbd7c72551deb?pvs=21) ，不過將BRAM 換成 SDRAM。
+1. 延續 Lab4-1，不過將 BRAM 換成更為進階的 SDRAM。
     - Bram 為 block SRAM ，在先前的設定上access time 為`10T`，SDRAM access time為`3T`，但是須考量 Refresh 。
 2. 改善WB對 SDRAM 的操作性能。
 3. 將 code execution 和 data fetch 分割至不同的 Bank，以進一步使用prefetch減少資料等待時間。
