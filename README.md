@@ -1,4 +1,4 @@
-# LAB-D  SDRAM
+# SDRAM controller
 
 Notion Link : [Link](https://irradiated-hellebore-357.notion.site/LAB-D-SDRAM-4128635388f44d099ccf5abd650cbda2?pvs=4)
 
@@ -8,9 +8,9 @@ Notion Link : [Link](https://irradiated-hellebore-357.notion.site/LAB-D-SDRAM-41
 
 ### 實驗目的
 
-1. 延續 Lab4-1，不過將 BRAM 換成更為進階的 SDRAM。
+1. 將 exmem 從 BRAM 換成更為進階的 SDRAM。
     - Bram 為 block SRAM ，在先前的設定上access time 為`10T`，SDRAM access time為`3T`，但是須考量 Refresh 。
-2. 改善WB對 SDRAM 的操作性能。
+2. 改善 Wishbone bus(WB) 對 SDRAM 的操作性能。
 3. 將 code execution 和 data fetch 分割至不同的 Bank，以進一步使用prefetch減少資料等待時間。
     - Code Execution：資料不會被更新，在 compile 階段就已經確定了
     - Data Fetch：有可能在運行中被更新，若存放在 Cache 須考慮 Write back 問題。
@@ -20,13 +20,13 @@ Notion Link : [Link](https://irradiated-hellebore-357.notion.site/LAB-D-SDRAM-41
 > 
 > - Page mode controller
 > - The combined SDRAM controller & SDRAM device is to replace a Wishbone BRAM
-> - 真實的 SDRAM 具有 inout port，但在FGPA上無法實現，因此本實驗會將inout port 分離成input port與output port。
+> - 真實的 SDRAM 具有 inout port，但在FGPA上無法實現，因此本實驗會將 inout port 分離成 input port 與 output port。
 > - Storage element 方面也無法直接用 FPGA 實現，因此會將 4 個 Bank 替換成 4 個 bram 以模擬出和 Behavior model 同樣的功能。
-> - 須考量CAS Latency ( **Column Address Strobe** )
+> - 須考量 CAS Latency ( **Column Address Strobe** )
 
 > CAS Latency
 > 
-> - CAS延遲（CAS Latency , CL ）是指在SDRAM中，從發送讀取命令到實際數據可用之間的時間延遲。它通常以時脈週期（Clock Cycle）的數量來表示，即以CLK的週期數來衡量。
+> - CAS 延遲（CAS Latency , CL ）是指在SDRAM中，從發送讀取命令到實際數據可用之間的時間延遲。它通常以時脈週期（Clock Cycle）的數量來表示，即以CLK的週期數來衡量。
 >     
 >     ![截圖 2023-12-26 下午9.40.33.png](LAB-D%20SDRAM%204128635388f44d099ccf5abd650cbda2/%25E6%2588%25AA%25E5%259C%2596_2023-12-26_%25E4%25B8%258B%25E5%258D%25889.40.33.png)
 >     
